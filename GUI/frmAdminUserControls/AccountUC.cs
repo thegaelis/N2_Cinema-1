@@ -137,7 +137,7 @@ namespace GUI.frmAdminUserControls
         {
             if (AccountDAO.ResetPassword(username))
             {
-                MessageBox.Show("Reset mật khẩu thành công, mật khẩu mặc định : 1");
+                MessageBox.Show("Reset mật khẩu thành công, mật khẩu mặc định : Abc@123");
             }
             else
             {
