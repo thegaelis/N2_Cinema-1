@@ -96,6 +96,11 @@ namespace GUI
 
         private void label4_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             frmLogin lg = new frmLogin();
             lg.Show();
             this.Hide();

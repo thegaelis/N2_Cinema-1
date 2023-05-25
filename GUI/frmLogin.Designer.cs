@@ -41,9 +41,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(28, 214);
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(72, 207);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 20);
+            this.label3.Size = new System.Drawing.Size(94, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "Password:";
             // 
@@ -51,9 +52,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(28, 140);
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(28, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 20);
+            this.label2.Size = new System.Drawing.Size(138, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tên đăng nhập:";
             // 
@@ -64,21 +66,21 @@
             this.btnLogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonFace;
             this.btnLogin.FlatAppearance.BorderSize = 2;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 23.77358F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.Black;
             this.btnLogin.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.Image")));
             this.btnLogin.Location = new System.Drawing.Point(33, 12);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(202, 87);
+            this.btnLogin.Size = new System.Drawing.Size(304, 87);
             this.btnLogin.TabIndex = 3;
-            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(232, 201);
+            this.txtPassword.Location = new System.Drawing.Point(194, 201);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -89,7 +91,7 @@
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(232, 131);
+            this.txtUsername.Location = new System.Drawing.Point(194, 131);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(230, 38);
@@ -99,10 +101,11 @@
             // 
             this.Resetpw.AutoSize = true;
             this.Resetpw.BackColor = System.Drawing.Color.Transparent;
+            this.Resetpw.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resetpw.ForeColor = System.Drawing.Color.OrangeRed;
-            this.Resetpw.Location = new System.Drawing.Point(402, 280);
+            this.Resetpw.Location = new System.Drawing.Point(292, 242);
             this.Resetpw.Name = "Resetpw";
-            this.Resetpw.Size = new System.Drawing.Size(118, 20);
+            this.Resetpw.Size = new System.Drawing.Size(139, 25);
             this.Resetpw.TabIndex = 6;
             this.Resetpw.Text = "Quên mật khẩu";
             this.Resetpw.Click += new System.EventHandler(this.Resetpw_Click);
@@ -110,7 +113,7 @@
             // frmLogin
             // 
             this.AcceptButton = this.btnLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));

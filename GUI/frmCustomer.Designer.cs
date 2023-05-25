@@ -43,10 +43,11 @@
             // btnCofirm
             // 
             this.btnCofirm.AutoSize = true;
-            this.btnCofirm.Location = new System.Drawing.Point(16, 87);
+            this.btnCofirm.Font = new System.Drawing.Font("Segoe UI", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCofirm.Location = new System.Drawing.Point(195, 144);
             this.btnCofirm.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnCofirm.Name = "btnCofirm";
-            this.btnCofirm.Size = new System.Drawing.Size(128, 39);
+            this.btnCofirm.Size = new System.Drawing.Size(161, 58);
             this.btnCofirm.TabIndex = 2;
             this.btnCofirm.Text = "Xác Nhận";
             this.btnCofirm.UseVisualStyleBackColor = true;
@@ -80,53 +81,55 @@
             this.pnThanhVien.Location = new System.Drawing.Point(0, 0);
             this.pnThanhVien.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pnThanhVien.Name = "pnThanhVien";
-            this.pnThanhVien.Size = new System.Drawing.Size(500, 80);
+            this.pnThanhVien.Size = new System.Drawing.Size(532, 80);
             this.pnThanhVien.TabIndex = 1;
             // 
             // txtCustomerName
             // 
-            this.txtCustomerName.Location = new System.Drawing.Point(195, 45);
+            this.txtCustomerName.Location = new System.Drawing.Point(254, 45);
             this.txtCustomerName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCustomerName.Name = "txtCustomerName";
-            this.txtCustomerName.Size = new System.Drawing.Size(267, 26);
+            this.txtCustomerName.Size = new System.Drawing.Size(267, 27);
             this.txtCustomerName.TabIndex = 2;
             // 
             // txtCustomerID
             // 
-            this.txtCustomerID.Location = new System.Drawing.Point(195, 6);
+            this.txtCustomerID.Location = new System.Drawing.Point(254, 6);
             this.txtCustomerID.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCustomerID.Name = "txtCustomerID";
-            this.txtCustomerID.Size = new System.Drawing.Size(267, 26);
+            this.txtCustomerID.Size = new System.Drawing.Size(267, 27);
             this.txtCustomerID.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 9);
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(11, 7);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 20);
+            this.label4.Size = new System.Drawing.Size(140, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Mã Thành Viên:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 48);
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(77, 46);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 20);
+            this.label3.Size = new System.Drawing.Size(74, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Họ Tên:";
             // 
             // frmCustomer
             // 
             this.AcceptButton = this.btnCofirm;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.layout_OTP___Pass;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(500, 145);
+            this.ClientSize = new System.Drawing.Size(532, 224);
             this.Controls.Add(this.pnThanhVien);
             this.Controls.Add(this.btnCofirm);
             this.Controls.Add(this.label2);

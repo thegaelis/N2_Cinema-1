@@ -473,5 +473,10 @@ namespace GUI
         {
 
         }
+
+        private void lblInformation_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

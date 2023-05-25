@@ -107,5 +107,10 @@ namespace GUI
         {
             LoadMovie(dtpThoiGian.Value);
         }
+
+        private void labelX_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

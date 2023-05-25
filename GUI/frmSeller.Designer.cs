@@ -71,7 +71,7 @@
             // 
             this.labelX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.labelX.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelX.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX.Font = new System.Drawing.Font("Segoe UI", 23.77358F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(123)))), ((int)(((byte)(233)))));
             this.labelX.Location = new System.Drawing.Point(0, 0);
             this.labelX.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -80,6 +80,7 @@
             this.labelX.TabIndex = 0;
             this.labelX.Text = "Lịch Chiếu Phim";
             this.labelX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelX.Click += new System.EventHandler(this.labelX_Click);
             // 
             // panel3
             // 
@@ -101,6 +102,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -118,7 +120,7 @@
             this.dtpThoiGian.Location = new System.Drawing.Point(11, 57);
             this.dtpThoiGian.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dtpThoiGian.Name = "dtpThoiGian";
-            this.dtpThoiGian.Size = new System.Drawing.Size(289, 26);
+            this.dtpThoiGian.Size = new System.Drawing.Size(289, 31);
             this.dtpThoiGian.TabIndex = 3;
             this.dtpThoiGian.Value = new System.DateTime(2018, 4, 15, 10, 8, 45, 0);
             this.dtpThoiGian.ValueChanged += new System.EventHandler(this.dtpThoiGian_ValueChanged);
@@ -129,7 +131,7 @@
             this.cboFilmName.Location = new System.Drawing.Point(11, 118);
             this.cboFilmName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cboFilmName.Name = "cboFilmName";
-            this.cboFilmName.Size = new System.Drawing.Size(289, 28);
+            this.cboFilmName.Size = new System.Drawing.Size(289, 33);
             this.cboFilmName.TabIndex = 4;
             this.cboFilmName.SelectedIndexChanged += new System.EventHandler(this.cboFilmName_SelectedIndexChanged);
             // 
@@ -139,7 +141,7 @@
             this.cboFormatFilm.Location = new System.Drawing.Point(11, 182);
             this.cboFormatFilm.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cboFormatFilm.Name = "cboFormatFilm";
-            this.cboFormatFilm.Size = new System.Drawing.Size(289, 28);
+            this.cboFormatFilm.Size = new System.Drawing.Size(289, 33);
             this.cboFormatFilm.TabIndex = 1;
             this.cboFormatFilm.SelectedIndexChanged += new System.EventHandler(this.cboFormatFilm_SelectedIndexChanged);
             // 
@@ -149,7 +151,7 @@
             this.label6.Location = new System.Drawing.Point(11, 90);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.Size = new System.Drawing.Size(58, 25);
             this.label6.TabIndex = 4;
             this.label6.Text = "Phim:";
             // 
@@ -159,7 +161,7 @@
             this.label4.Location = new System.Drawing.Point(11, 29);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 20);
+            this.label4.Size = new System.Drawing.Size(95, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Thời Gian:";
             // 
@@ -169,7 +171,7 @@
             this.label1.Location = new System.Drawing.Point(11, 154);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 20);
+            this.label1.Size = new System.Drawing.Size(105, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Suất Chiếu:";
             // 
@@ -202,6 +204,7 @@
             this.columnHeader4,
             this.columnHeader2});
             this.lvLichChieu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvLichChieu.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvLichChieu.FullRowSelect = true;
             this.lvLichChieu.HideSelection = false;
             this.lvLichChieu.LargeImageList = this.imageList1;
@@ -256,7 +259,7 @@
             // 
             // frmSeller
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1027, 578);
