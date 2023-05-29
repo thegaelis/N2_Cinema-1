@@ -199,5 +199,10 @@ namespace GUI.frmAdminUserControls.DataUserControl
                 MessageBox.Show("BẠN CHƯA CHỌN LỊCH CHIẾU ĐỂ XEM!!!", "THÔNG BÁO");
             }
         }
+
+        private void panel61_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

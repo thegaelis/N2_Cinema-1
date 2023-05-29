@@ -206,5 +206,10 @@ namespace GUI.frmAdminUserControls.DataUserControl
             DeleteMovie(movieID);
             LoadMovieList();
         }
+
+        private void dtgvMovie_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

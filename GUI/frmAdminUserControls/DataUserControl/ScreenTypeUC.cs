@@ -88,5 +88,10 @@ namespace GUI.frmAdminUserControls.DataUserControl
             DeleteScreenType(screenTypeID);
             LoadScreenTypeList();
         }
+
+        private void lblScreenTypeID_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

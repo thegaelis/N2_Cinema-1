@@ -48,7 +48,7 @@
             this.label2.Location = new System.Drawing.Point(45, 91);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 25);
+            this.label2.Size = new System.Drawing.Size(143, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "Tên đăng nhập:";
             // 
@@ -60,7 +60,7 @@
             this.label1.Location = new System.Drawing.Point(123, 141);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 25);
+            this.label1.Size = new System.Drawing.Size(64, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "Email:";
             // 
@@ -92,7 +92,7 @@
             this.label3.Location = new System.Drawing.Point(64, 294);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 25);
+            this.label3.Size = new System.Drawing.Size(127, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "Mã xác nhận:";
             // 
@@ -169,6 +169,7 @@
             this.Name = "ResetByOTP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ResetByOTP";
+            this.Load += new System.EventHandler(this.ResetByOTP_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

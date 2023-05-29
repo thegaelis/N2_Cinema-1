@@ -105,5 +105,10 @@ namespace GUI
             lg.Show();
             this.Hide();
         }
+
+        private void ResetByOTP_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

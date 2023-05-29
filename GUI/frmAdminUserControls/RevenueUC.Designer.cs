@@ -46,20 +46,20 @@
             // lblSelectMovie
             // 
             this.lblSelectMovie.AutoSize = true;
-            this.lblSelectMovie.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelectMovie.Location = new System.Drawing.Point(225, 29);
+            this.lblSelectMovie.Font = new System.Drawing.Font("Segoe UI", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSelectMovie.Location = new System.Drawing.Point(171, 20);
             this.lblSelectMovie.Name = "lblSelectMovie";
-            this.lblSelectMovie.Size = new System.Drawing.Size(133, 26);
+            this.lblSelectMovie.Size = new System.Drawing.Size(128, 30);
             this.lblSelectMovie.TabIndex = 39;
             this.lblSelectMovie.Text = "Chọn phim:";
             // 
             // lblTongDoanhThu
             // 
             this.lblTongDoanhThu.AutoSize = true;
-            this.lblTongDoanhThu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTongDoanhThu.Location = new System.Drawing.Point(951, 691);
+            this.lblTongDoanhThu.Font = new System.Drawing.Font("Segoe UI", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongDoanhThu.Location = new System.Drawing.Point(787, 583);
             this.lblTongDoanhThu.Name = "lblTongDoanhThu";
-            this.lblTongDoanhThu.Size = new System.Drawing.Size(181, 26);
+            this.lblTongDoanhThu.Size = new System.Drawing.Size(179, 30);
             this.lblTongDoanhThu.TabIndex = 38;
             this.lblTongDoanhThu.Text = "Tổng doanh thu:";
             // 
@@ -67,27 +67,30 @@
             // 
             this.txtDoanhThu.Enabled = false;
             this.txtDoanhThu.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDoanhThu.Location = new System.Drawing.Point(1122, 683);
+            this.txtDoanhThu.Location = new System.Drawing.Point(997, 581);
+            this.txtDoanhThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDoanhThu.Name = "txtDoanhThu";
-            this.txtDoanhThu.Size = new System.Drawing.Size(264, 40);
+            this.txtDoanhThu.Size = new System.Drawing.Size(235, 35);
             this.txtDoanhThu.TabIndex = 37;
             this.txtDoanhThu.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblDenNgay
             // 
             this.lblDenNgay.AutoSize = true;
-            this.lblDenNgay.Location = new System.Drawing.Point(507, 88);
+            this.lblDenNgay.Font = new System.Drawing.Font("Segoe UI Semibold", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDenNgay.Location = new System.Drawing.Point(444, 80);
             this.lblDenNgay.Name = "lblDenNgay";
-            this.lblDenNgay.Size = new System.Drawing.Size(81, 20);
+            this.lblDenNgay.Size = new System.Drawing.Size(88, 23);
             this.lblDenNgay.TabIndex = 36;
             this.lblDenNgay.Text = "Đến ngày:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(220, 88);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(172, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(77, 23);
             this.label1.TabIndex = 35;
             this.label1.Text = "Từ ngày:";
             // 
@@ -96,20 +99,24 @@
             this.dtgvRevenue.AllowUserToAddRows = false;
             this.dtgvRevenue.AllowUserToDeleteRows = false;
             this.dtgvRevenue.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvRevenue.BackgroundColor = System.Drawing.Color.IndianRed;
             this.dtgvRevenue.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvRevenue.Location = new System.Drawing.Point(225, 152);
+            this.dtgvRevenue.Location = new System.Drawing.Point(177, 140);
+            this.dtgvRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgvRevenue.Name = "dtgvRevenue";
             this.dtgvRevenue.ReadOnly = true;
             this.dtgvRevenue.RowHeadersWidth = 62;
-            this.dtgvRevenue.Size = new System.Drawing.Size(1162, 526);
+            this.dtgvRevenue.Size = new System.Drawing.Size(1056, 421);
             this.dtgvRevenue.TabIndex = 34;
             // 
             // btnReportRevenue
             // 
             this.btnReportRevenue.AutoSize = true;
-            this.btnReportRevenue.Location = new System.Drawing.Point(892, 82);
+            this.btnReportRevenue.Font = new System.Drawing.Font("Segoe UI", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportRevenue.Location = new System.Drawing.Point(1063, 57);
+            this.btnReportRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReportRevenue.Name = "btnReportRevenue";
-            this.btnReportRevenue.Size = new System.Drawing.Size(104, 40);
+            this.btnReportRevenue.Size = new System.Drawing.Size(171, 64);
             this.btnReportRevenue.TabIndex = 32;
             this.btnReportRevenue.Text = "Báo Cáo";
             this.btnReportRevenue.UseVisualStyleBackColor = true;
@@ -118,9 +125,11 @@
             // btnShowRevenue
             // 
             this.btnShowRevenue.AutoSize = true;
-            this.btnShowRevenue.Location = new System.Drawing.Point(764, 82);
+            this.btnShowRevenue.Font = new System.Drawing.Font("Segoe UI", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShowRevenue.Location = new System.Drawing.Point(708, 57);
+            this.btnShowRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShowRevenue.Name = "btnShowRevenue";
-            this.btnShowRevenue.Size = new System.Drawing.Size(110, 40);
+            this.btnShowRevenue.Size = new System.Drawing.Size(171, 64);
             this.btnShowRevenue.TabIndex = 33;
             this.btnShowRevenue.Text = "Thống kê";
             this.btnShowRevenue.UseVisualStyleBackColor = true;
@@ -129,36 +138,41 @@
             // cboSelectMovie
             // 
             this.cboSelectMovie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboSelectMovie.Font = new System.Drawing.Font("Segoe UI", 6.792453F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboSelectMovie.FormattingEnabled = true;
-            this.cboSelectMovie.Location = new System.Drawing.Point(366, 31);
+            this.cboSelectMovie.Location = new System.Drawing.Point(325, 25);
+            this.cboSelectMovie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboSelectMovie.Name = "cboSelectMovie";
-            this.cboSelectMovie.Size = new System.Drawing.Size(392, 28);
+            this.cboSelectMovie.Size = new System.Drawing.Size(349, 21);
             this.cboSelectMovie.TabIndex = 31;
             // 
             // dtmToDate
             // 
             this.dtmToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtmToDate.Location = new System.Drawing.Point(596, 83);
+            this.dtmToDate.Location = new System.Drawing.Point(555, 80);
+            this.dtmToDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtmToDate.Name = "dtmToDate";
             this.dtmToDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtmToDate.Size = new System.Drawing.Size(151, 26);
+            this.dtmToDate.Size = new System.Drawing.Size(135, 22);
             this.dtmToDate.TabIndex = 29;
             // 
             // dtmFromDate
             // 
             this.dtmFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtmFromDate.Location = new System.Drawing.Point(302, 83);
+            this.dtmFromDate.Location = new System.Drawing.Point(268, 80);
+            this.dtmFromDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtmFromDate.Name = "dtmFromDate";
             this.dtmFromDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtmFromDate.Size = new System.Drawing.Size(151, 26);
+            this.dtmFromDate.Size = new System.Drawing.Size(169, 22);
             this.dtmFromDate.TabIndex = 30;
             // 
             // btnExcel
             // 
-            this.btnExcel.Location = new System.Drawing.Point(1029, 83);
-            this.btnExcel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnExcel.Font = new System.Drawing.Font("Segoe UI", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcel.Location = new System.Drawing.Point(885, 57);
+            this.btnExcel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(122, 38);
+            this.btnExcel.Size = new System.Drawing.Size(171, 64);
             this.btnExcel.TabIndex = 40;
             this.btnExcel.Text = "Xuất Excel";
             this.btnExcel.UseVisualStyleBackColor = true;
@@ -166,8 +180,9 @@
             // 
             // RevenueUC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.lblSelectMovie);
             this.Controls.Add(this.lblTongDoanhThu);
@@ -180,8 +195,9 @@
             this.Controls.Add(this.cboSelectMovie);
             this.Controls.Add(this.dtmToDate);
             this.Controls.Add(this.dtmFromDate);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RevenueUC";
-            this.Size = new System.Drawing.Size(1575, 812);
+            this.Size = new System.Drawing.Size(1400, 650);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRevenue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

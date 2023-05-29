@@ -49,6 +49,7 @@
             // 
             // panel61
             // 
+            this.panel61.BackColor = System.Drawing.SystemColors.Window;
             this.panel61.Controls.Add(this.btnShowAllTicketsByShowTime);
             this.panel61.Controls.Add(this.btnShowAllTicketsBoughtByShowTime);
             this.panel61.Controls.Add(this.btnAddTicketsByShowTime);
@@ -61,6 +62,7 @@
             this.panel61.Name = "panel61";
             this.panel61.Size = new System.Drawing.Size(1548, 64);
             this.panel61.TabIndex = 10;
+            this.panel61.Paint += new System.Windows.Forms.PaintEventHandler(this.panel61_Paint);
             // 
             // btnShowAllTicketsByShowTime
             // 
@@ -180,11 +182,13 @@
             this.dtgvTicket.AllowUserToAddRows = false;
             this.dtgvTicket.AllowUserToDeleteRows = false;
             this.dtgvTicket.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvTicket.BackgroundColor = System.Drawing.Color.IndianRed;
             this.dtgvTicket.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvTicket.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgvTicket.Location = new System.Drawing.Point(0, 64);
             this.dtgvTicket.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvTicket.Name = "dtgvTicket";
+            this.dtgvTicket.RowHeadersWidth = 51;
             this.dtgvTicket.Size = new System.Drawing.Size(859, 574);
             this.dtgvTicket.TabIndex = 12;
             // 

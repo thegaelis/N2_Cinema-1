@@ -44,7 +44,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(72, 207);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 25);
+            this.label3.Size = new System.Drawing.Size(96, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "Password:";
             // 
@@ -55,7 +55,7 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(28, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 25);
+            this.label2.Size = new System.Drawing.Size(143, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tên đăng nhập:";
             // 
@@ -105,7 +105,7 @@
             this.Resetpw.ForeColor = System.Drawing.Color.OrangeRed;
             this.Resetpw.Location = new System.Drawing.Point(292, 242);
             this.Resetpw.Name = "Resetpw";
-            this.Resetpw.Size = new System.Drawing.Size(139, 25);
+            this.Resetpw.Size = new System.Drawing.Size(144, 25);
             this.Resetpw.TabIndex = 6;
             this.Resetpw.Text = "Quên mật khẩu";
             this.Resetpw.Click += new System.EventHandler(this.Resetpw_Click);
@@ -127,6 +127,7 @@
             this.Controls.Add(this.txtUsername);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(0);
             this.MaximizeBox = false;

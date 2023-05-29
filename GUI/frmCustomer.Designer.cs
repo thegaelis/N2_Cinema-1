@@ -78,6 +78,7 @@
             this.pnThanhVien.Controls.Add(this.label4);
             this.pnThanhVien.Controls.Add(this.label3);
             this.pnThanhVien.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnThanhVien.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnThanhVien.Location = new System.Drawing.Point(0, 0);
             this.pnThanhVien.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pnThanhVien.Name = "pnThanhVien";
@@ -89,7 +90,7 @@
             this.txtCustomerName.Location = new System.Drawing.Point(254, 45);
             this.txtCustomerName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCustomerName.Name = "txtCustomerName";
-            this.txtCustomerName.Size = new System.Drawing.Size(267, 27);
+            this.txtCustomerName.Size = new System.Drawing.Size(267, 35);
             this.txtCustomerName.TabIndex = 2;
             // 
             // txtCustomerID
@@ -97,7 +98,7 @@
             this.txtCustomerID.Location = new System.Drawing.Point(254, 6);
             this.txtCustomerID.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCustomerID.Name = "txtCustomerID";
-            this.txtCustomerID.Size = new System.Drawing.Size(267, 27);
+            this.txtCustomerID.Size = new System.Drawing.Size(267, 35);
             this.txtCustomerID.TabIndex = 1;
             // 
             // label4
@@ -107,7 +108,7 @@
             this.label4.Location = new System.Drawing.Point(11, 7);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 25);
+            this.label4.Size = new System.Drawing.Size(160, 30);
             this.label4.TabIndex = 1;
             this.label4.Text = "Mã Thành Viên:";
             // 
@@ -115,17 +116,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(77, 46);
+            this.label3.Location = new System.Drawing.Point(86, 48);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 25);
+            this.label3.Size = new System.Drawing.Size(85, 30);
             this.label3.TabIndex = 0;
             this.label3.Text = "Họ Tên:";
             // 
             // frmCustomer
             // 
             this.AcceptButton = this.btnCofirm;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.layout_OTP___Pass;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
